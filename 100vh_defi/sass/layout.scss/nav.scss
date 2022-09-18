@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    .menu{margin-right: 3%;
+    margin-top: 0px;}
+    img{
+        width: 60px;
+        height: 60px;  
+    }
+    h1{
+        color: grey;
+        margin-left: 3%;
+        margin-top: 5px;
+    }
+}

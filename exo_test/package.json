@@ -1,0 +1,11 @@
+{
+  "name": "antony",
+  "version": "1.0.0",
+  "description": "le petit exo sympa",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "antoo",
+  "license": "ISC"
+}

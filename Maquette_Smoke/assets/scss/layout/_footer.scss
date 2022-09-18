@@ -1,0 +1,35 @@
+footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #3687b5;
+    margin-top: 50px;
+    padding-top: 10px;
+    max-height: 102px;
+    p{
+        font-size: 0.7rem;
+        color: #ffffff91;
+    }
+    span{
+        padding: 0px 30px;
+     &::before{
+         content: "";
+         position: absolute;
+         border-left: 2px solid #3687b5;
+         height: 60px;
+         
+         
+     }
+}   
+    .left-footer{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .right-footer{
+        width: 44%;
+        display: flex;
+    }
+}

@@ -1,0 +1,12 @@
+button{
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 10px 50px;
+    background-color: transparent;
+    border: solid  whitesmoke;
+    transition: 0.5s;
+    &:hover{
+        background-color: rgb(16 58 137 / 53%);
+        color: #baecff;
+    }
+}

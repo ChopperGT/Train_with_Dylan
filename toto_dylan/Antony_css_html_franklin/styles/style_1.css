@@ -1,0 +1,125 @@
+/* ///////////////////////////////////nav/////////////////////////////////////////////////////////////////////////////////////:: */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body
+{
+    background: url(../assets/img/chaussure_de_franklin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+
+.nav_list
+{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.nav_item
+{
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:x-large
+}
+
+.nav_item a 
+{
+    margin-right: 2rem;
+    color:  black;
+    letter-spacing: 1.2px;
+
+}
+
+.nav_item:first-child
+{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.nav_item a:hover
+{
+    background-color: black;
+    color: green;
+    font-size: xx-large;
+}
+/*****************************le CV****************************************/
+.cv
+{
+    margin: 50px auto auto auto;
+    width: 80%;
+    height: auto;
+    background-color: #FFFF;
+}
+#titre
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+/************************************img franklin**********************/
+.image_ronde
+{
+    /*mettre mon image en rond*/
+    width: 150px;
+    height: 150px;
+    border: none;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+}
+#img_franklin
+{
+    text-align: end;
+    margin-right: 1rem;
+}
+/***************************************fin img franklin*************/
+/***************************************colonne CV***************/
+.Colonne_CV
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #229a3996;
+    float:left;
+}
+.Colonne_CV h2
+{
+
+    font-weight: 200;
+    
+}
+.Colonne_CV h2,h1
+{
+    width: 80%;
+}
+
+/*******************************************fin colonne CV**************/
+/************************************texte du CV**********************/
+.droite
+{
+    margin: 20px;
+}
+/*************************************fin texte du CV****************/
+/*************************************Contact*********************/
+.Perso
+{
+    text-align: -webkit-center;
+    margin-top: 400px;
+    background-color: #229435
+}

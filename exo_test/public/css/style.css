@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-transform: uppercase;
+  font: 2rem "Calibri", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+nav h2 {
+  text-transform: uppercase;
+  font: 2rem "Calibri", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+section {
+  text-transform: uppercase;
+  font: 1.8rem "Calibri", sans-serif;
+  letter-spacing: 2px;
+}
+section #text-section {
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+section .font-weight {
+  font-weight: 100;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  font: 2rem "Calibri", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+header h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+nav {
+  background-color: rgb(17, 104, 218);
+}
+nav h2 {
+  color: white;
+  padding: 5px 0px 2px 5%;
+}
+
+section {
+  margin: auto;
+  width: 90%;
+}
+section #text-section {
+  padding-top: 20px;
+  text-align: center;
+}
+section #conteiner {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+section main {
+  background-color: rgba(70, 68, 68, 0.571);
+  width: 70%;
+  height: 500px;
+  margin-right: 40px;
+}
+section main #text-main {
+  padding: 10px 0px 20px 20px;
+}
+section main article {
+  background-color: #08b786;
+  margin: auto;
+  width: 88%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section main article h2 {
+  color: white;
+}
+section #div {
+  width: 30%;
+  background-color: orange;
+}
+section #div aside {
+  background-color: rgb(199, 109, 226);
+  margin: 20px 20px 40px 20px;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+footer h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

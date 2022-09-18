@@ -1,0 +1,55 @@
+.part-2{
+    height: 100vh;
+    background-color:#654afe ;
+    .taille{
+        width: 90%;
+        padding-top: 40px;
+        margin: auto;
+        
+    }
+    h2{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 4rem;
+        font-weight: 300;
+    }
+    h3{
+     color: white;  
+    text-align: center;
+    margin: 40px 0px;
+    }
+    h4{
+        text-transform: uppercase;
+        color: #654afe;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-between;
+
+    }
+    .box{
+        padding: 80px 0px;
+        text-align: center;
+        background-color: white;
+        border-radius: 30px;
+        position: relative;
+        &::before{
+            content: url(../../Capture\ d’écran\ 2022-09-06\ 115659.png);
+            position: absolute;
+            bottom: 370px;
+            left: 37%;
+        }
+        .center{
+            width: 80%;
+            margin: auto;
+        }
+        h4{
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+
+
+    }
+}

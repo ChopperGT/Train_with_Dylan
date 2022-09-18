@@ -1,0 +1,28 @@
+body{
+    z-index: 0;
+    background: linear-gradient(133deg, #2d52c5, #266faa, #6f26aa);
+    background-size: 600% 600%;
+
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+.bubble{
+    position: absolute  ; //pour que l'image reste en fond il faut absolute et une taille
+    height: 100%;
+    width: 100%;
+    background: url(../../../img/bubble.png) center/cover fixed;
+    opacity: 0.2;
+    z-index: -1;
+    
+}

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+nav h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+section {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+header h1 {
+  color: white;
+}
+
+nav {
+  background-color: rgb(17, 104, 218);
+}
+nav h2 {
+  color: white;
+  padding: 5px 0px 2px 5%;
+}
+
+section {
+  margin: auto;
+  width: 90%;
+}
+section #text-section {
+  padding-top: 20px;
+  text-align: center;
+}
+section #conteiner {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+section main {
+  background-color: rgba(70, 68, 68, 0.571);
+  width: 70%;
+  height: 500px;
+  margin-right: 40px;
+}
+section main #text-main {
+  padding: 10px 0px 20px 20px;
+}
+section main article {
+  background-image: linear-gradient(to top, #15DEA5, rgb(56, 183, 31));
+  /* background-color: $bg-article;*/
+  margin: auto;
+  width: 88%;
+  height: 75%;
+}
+section main article h2 {
+  text-align: center;
+  color: white;
+  padding-top: 22%; /*c'est nul c'est pas au centre*/
+}
+section #div {
+  width: 30%;
+  background-color: orange;
+}
+section #div aside {
+  background-color: rgb(199, 109, 226);
+  margin: 20px 20px 40px 20px;
+  height: 35%;
+}
+section #div aside h2 {
+  margin-top: 22%;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+footer h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+button
+{
+    cursor: pointer;
+    padding: 20px 70px;
+    background-color: #654afe;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+button:hover{
+    color: blue;
+}
+#suite
+{   
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    margin-top: 50px;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        background-color: blueviolet;
+        color: aliceblue;
+    }
+
+}

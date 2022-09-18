@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/style_3.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="index.html">Accueil</a></li>
+          <!-- pour faire plein de li en même temp : li.nav-item*3>a  (.pour la classe *3 pour le nombre et tu rajoute a)-->
+          <li class="nav_item">
+            <a href="Guerre.html">Troisième guerre mondial</a>
+          </li>
+          <li class="nav_item"><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="grid">
+        <h2>Me contactez</h2>
+        <div class="grid-container">
+          <div class="grid_image">
+            <img src="assets/img/franklin.jpg" alt="logo css" height="200px" />
+          </div>
+          <form>
+            <!-- <label for="firstname">Votre Prenom</label> -->
+            <input type="text" id="firstname" placeholder="Prenom" />
+            <!-- <label for="secondname">Nom de famille</label> -->
+            <input type="text" id="secondname" placeholder="Nom de famille" />
+            <input type="text" id="sujet" placeholder="sujet" />
+            <textarea
+              id="message"
+              cols="30"
+              rows="30"
+              placeholder="Ici votre texte"
+            ></textarea>
+            <input type="submit" value="valider" />
+          </form>
+        </div>
+      </div>
+      <footer>
+        <div class="Perso">
+          <h1>Me contactez</h1>
+          <p>
+            <a href="mailto:realistedem@gmail.com">
+              <img src="./assets/img/mail.jpg" alt="mail" />
+        </div>
+      </footer>
+  </body>
+</html>

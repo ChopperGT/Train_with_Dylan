@@ -1,0 +1,342 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: local("Montserrat-Bold"), url(./Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: local("Montserrat-Light"), url(./Montserrat-Light.otf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: local("Montserrat-SemiBold"), url(./Montserrat-SemiBold.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*! ----- NAV ----- */
+body nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0 250px;
+  padding: 0;
+}
+
+body nav ul li {
+  height: 75px;
+  font-size: 1.3rem;
+  font-family: Montserrat-Bold;
+  border-top: 8px solid transparent;
+  display: flex;
+  align-items: center;
+  transition: all 100ms;
+}
+
+body nav ul li:hover {
+  color: purple;
+  border-top: 8px solid purple;
+}
+
+#language {
+  background: rgb(214, 214, 214);
+  border-radius: 100px;
+  height: 35px;
+  width: 120px;
+  justify-content: center;
+}
+
+#language:hover {
+  color: black;
+  border-top: 8px solid transparent;
+}
+/*! ----- END NAV ----- */
+
+/*? ----- HEADER ----- */
+
+.main-header {
+  /* background-image: url(./assets/img/bg.jpg); */
+  background: url(./assets/img/bg.jpg) no-repeat center center fixed;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header h1 {
+  color: white;
+  font-family: Montserrat-SemiBold;
+  text-transform: uppercase;
+}
+
+.main-header button {
+  height: 50px;
+  min-width: 250px;
+  width: 30%;
+  max-width: 450px;
+  background: transparent;
+  color: white;
+  border-color: transparent;
+  font-family: Montserrat-SemiBold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 1px solid white;
+}
+
+.main-header button:hover {
+  background: white;
+  color: black;
+  transition: all 100ms;
+}
+/*? ----- END HEADER ----- */
+
+/** ----- header ----- */
+
+.header-text {
+  font-family: Montserrat-SemiBold;
+  height: 100%;
+  margin: 40px 15%;
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.header-text p {
+  display: flex;
+  text-align: center;
+}
+/** ----- END header ----- */
+
+/*TODO ----- SECTION 1 ----- */
+.icon-part-container {
+  background: #222;
+  padding: 100px 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-part-container .list-icon-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-part-container h3 {
+  color: white;
+  font-family: Montserrat-Light;
+  text-transform: uppercase;
+  margin: 0 20%;
+  margin: 40px 20px 20px 20px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.icon-part-container p {
+  color: white;
+  font-family: Montserrat-Light;
+  margin: 20px 20px;
+  font-size: 1rem;
+  height: 55px;
+  text-align: center;
+}
+
+.icon-part-container button {
+  margin-top: 20px;
+  width: 250px;
+  height: 55px;
+  font-size: 1rem;
+  transition: all 100ms;
+  color: white;
+  border-color: transparent;
+  background-color: transparent;
+  font-family: Montserrat-SemiBold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 1px solid white;
+}
+
+.icon-part-container button:hover {
+  background: white;
+  color: black;
+  transition: all 100ms;
+}
+
+/*TODO ----- END SECTION 1 ----- */
+
+/*TODO ----- SECTION 2 ----- */
+
+.news-part {
+  height: 900px;
+  padding: 0 15%;
+  background-color: rgb(239, 239, 239);
+}
+
+.news-part .header-news {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-part .header-news .left-part {
+  font-family: Montserrat-SemiBold;
+  font-size: 1rem;
+}
+
+.news-part .header-news .left-part h2 {
+  text-transform: uppercase;
+}
+
+.news-part .header-news .right-part {
+  margin-right: 200px;
+}
+
+.news-part .header-news .right-part button {
+  width: 250px;
+  height: 55px;
+  font-family: Montserrat-SemiBold;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-news .main-news-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-news .main-news-container div {
+  height: 300px;
+  width: 350px;
+  flex-direction: column;
+  margin: 0;
+  font-family: Montserrat-SemiBold;
+}
+
+.main-news .main-news-container div h4 {
+  height: 50px;
+}
+
+.main-news .main-news-container div p {
+  height: 150px;
+}
+
+.main-news .main-news-container .link a {
+  font-size: 1rem;
+  color: purple;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Montserrat-SemiBold;
+  text-decoration: none;
+}
+
+.mn-pic img {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: top;
+}
+
+/*TODO ----- END SECTION 2 ----- */
+
+/*? ----- CONTACT ----- */
+.contact .contact-container .contact-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 50px 200px;
+}
+
+.contact .contact-container .contact-list .list {
+  width: 350px;
+}
+
+.contact .contact-container .contact-list .list h6 {
+  font-family: Montserrat-SemiBold;
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+.contact .contact-container .contact-list .list p {
+  font-family: Montserrat-SemiBold;
+  padding: 0 50px 0 0;
+}
+
+.contact .contact-container .contact-list .list a {
+  font-family: Montserrat-SemiBold;
+  text-decoration: none;
+}
+
+.contact .contact-container .contact-list .list h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.contact .contact-container .contact-list .list .infos-p {
+  color: purple;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact .contact-container .contact-list .list .infos-p li {
+  margin: 20px 0;
+  font-family: Montserrat-SemiBold;
+  list-style-type: none;
+}
+
+.contact .contact-container .contact-medias {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.contact .contact-container .contact-medias .medias-logos span {
+  margin: 0 20px;
+}
+
+.contact .contact-container .contact-medias .medias-text {
+  font-family: Montserrat-SemiBold;
+}
+
+/*? ----- END CONTACT ----- */
+
+/** ----- FOOTER ----- */
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background: #333;
+  text-decoration: none;
+  padding: 20px 15%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* footer ul li {
+  margin: 0 40px;
+} */
+
+/** ----- END FOOTER ----- */

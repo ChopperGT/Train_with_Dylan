@@ -1,0 +1,50 @@
+section
+{
+    margin: auto;
+    width: 90%;
+    #text-section{
+        padding-top: 20px;
+        text-align: center;
+    }
+    #conteiner{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    main{
+        
+        background-color: $bg-main;
+        width: 70%;
+        height: 500px;
+        margin-right: 40px;
+        #text-main{ padding: 10px 0px 20px 20px;}
+        article{
+           
+            background-color: $bg-article;
+            margin: auto;
+            width: 88%;
+            height: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+                color: $text-article;   
+            }
+        }
+    }
+
+    #div{
+        width: 30%;
+        background-color: orange;
+        aside
+        {   
+            background-color: $bg-aside;
+            margin: 20px 20px 40px 20px;
+            height: 35%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+
+    }
+}
